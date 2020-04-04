@@ -1,19 +1,8 @@
-const Data = [{
-    Principal: 2500,
-    Time: 1.8
-  },
-  {
-    Principal: 1000,
-    Time: 5
-  },
-  {
-    Principal: 3000,
-    Time: 1
-  },
-  {
-    Principal: 2000,
-    Time: 3
-  }
+const Data = [
+  {Principal: 2500,Time: 1.8},
+  {Principal: 1000,Time: 5},
+  {Principal: 3000,Time: 1},
+  {Principal: 2000,Time: 3}
 ];
 let rate;
 const interestCalculator = (array) => {
